@@ -1,0 +1,1515 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+HTML {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vh;
+  width: 100%;
+  background-color: #066;
+}
+
+.navbar a {
+  color: #e2e2e2;
+  text-decoration: none;
+}
+
+.navh2 {
+  color: #e2e2e2;
+  margin-left: 40px;
+  font-size: 30px;
+}
+.navh2 span {
+  color: burlywood;
+}
+.navbar ul {
+  display: flex;
+  margin-right: 160px;
+}
+.navbar ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #e2e2e2;
+  font-weight: 600;
+  margin: 0 50px 0 70px;
+  font-size: 17px;
+  transition: all ease-in-out 0.3s;
+}
+.navbar ul li a:hover {
+  transform: scale(90%);
+  color: burlywood;
+}
+/* bagian bawah1 */
+
+.NOWPLAYING {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 198px;
+}
+
+.NOWPLAYING h1 {
+  text-align: center;
+  width: 150px;
+  background-color: #066;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+
+.bawah {
+  display: flex;
+  justify-content: center;
+}
+
+.bawah .imgnow {
+  margin: 10px;
+  width: 300px;
+}
+
+.bawah a {
+  text-decoration: none;
+  border: none;
+  color: #000000;
+}
+/* bagian bawah1 end */
+
+/* bagian bawah2 */
+.UPCOMING h1 {
+  margin-top: 10px;
+  margin-left: 198px;
+  text-align: center;
+  width: 150px;
+  background-color: #066;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+
+/* SEARCH */
+.search {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 100px;
+}
+
+.search input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px 0 0 10px;
+  outline: invert;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+}
+
+.search button {
+  position: absolute;
+  background: #f2f2f2;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.search button:hover {
+  background: #e6e6e6;
+}
+
+/* seach END */
+
+/* BAGIAN THEATERS PLOK MANTAP */
+
+.theater h1 {
+  margin-top: 10px;
+  margin-bottom: 200px;
+  margin-left: 198px;
+  text-align: center;
+  width: 150px;
+  background-color: #066;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+
+.theater .theater-scroll {
+  margin-left: 100px;
+  height: 300px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  font-family: "monsterrat", sans-serif;
+  align-items: center;
+}
+
+.theater-scroll p {
+  margin: 18px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "monsterrat", sans-serif;
+}
+
+/* KINGDOM INDEX */
+.navbar {
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vh;
+  width: 100%;
+  background-color: #066;
+}
+
+.navbar a {
+  color: #e2e2e2;
+  text-decoration: none;
+}
+
+.navh2 {
+  color: #e2e2e2;
+  margin-left: 40px;
+  font-size: 30px;
+}
+.navh2 span {
+  color: burlywood;
+}
+.navbar ul {
+  display: flex;
+  margin-right: 160px;
+}
+.navbar ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #e2e2e2;
+  font-weight: 600;
+  margin: 0 50px 0 70px;
+  font-size: 17px;
+  transition: all ease-in-out 0.3s;
+}
+.navbar ul li a:hover {
+  transform: scale(90%);
+  color: burlywood;
+}
+
+.apes h3 {
+  text-decoration: none;
+  border: none;
+  color: #000000;
+}
+
+.nowplaying2 a {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 198px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+/* bagian bawah kingdom */
+
+.kingdom {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.age {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.age h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.age img {
+  width: 70px;
+  height: 70px;
+  float: right;
+  margin-right: 50px;
+}
+
+.kingdom .apes {
+  margin: 10px;
+  width: 300px;
+  margin-left: 100px;
+}
+
+.kingdom p {
+  font-size: 20px;
+  border: none;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.deksripsi {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.trailer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.trailer a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #066;
+  font-family: "Monsterrat", sans-serif;
+}
+
+.sinopsis {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 100;
+}
+
+.sinopsis h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.sinopsis p {
+  margin-top: 10px;
+}
+
+.apes a {
+  background-color: #066;
+  display: flex;
+  font-family: "Monsterrat", sans-serif;
+  font-size: 30px;
+  color: #ffff;
+  text-decoration: none;
+  justify-content: center;
+}
+
+/* KINGDOM OF APES END */
+
+/* CIVIL WAR START */
+
+.navbar {
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vh;
+  width: 100%;
+  background-color: #066;
+}
+
+.navbar a {
+  color: #e2e2e2;
+  text-decoration: none;
+}
+
+.navh2 {
+  color: #e2e2e2;
+  margin-left: 40px;
+  font-size: 30px;
+}
+.navh2 span {
+  color: burlywood;
+}
+.navbar ul {
+  display: flex;
+  margin-right: 160px;
+}
+.navbar ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #e2e2e2;
+  font-weight: 600;
+  margin: 0 50px 0 70px;
+  font-size: 17px;
+  transition: all ease-in-out 0.3s;
+}
+.navbar ul li a:hover {
+  transform: scale(90%);
+  color: burlywood;
+}
+
+.war h3 {
+  text-decoration: none;
+  border: none;
+  color: #000000;
+}
+
+.nowplaying3 a {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 198px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+/* civil war BAGIAN BAWAH */
+
+.civilwar {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.age2 {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.age2 h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.age2 img {
+  width: 70px;
+  height: 70px;
+  float: right;
+  margin-right: 50px;
+}
+
+.civilwar .war {
+  margin: 10px;
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.civilwar p {
+  font-size: 20px;
+  border: none;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.civilwar {
+  display: flex;
+}
+
+.trailer2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.trailer2 a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #066;
+  font-family: "Monsterrat", sans-serif;
+}
+
+.sinopsis2 {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 100;
+}
+
+.sinopsis2 h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.sinopsis2 p {
+  margin-top: 10px;
+}
+
+.war a {
+  background-color: #066;
+  display: flex;
+  font-family: "Monsterrat", sans-serif;
+  font-size: 30px;
+  color: #ffff;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.deksripscivilwar {
+  margin-top: 100px;
+}
+
+/* CIVIL WAR END */
+
+/* IMAGINARY START */
+
+.navbar {
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vh;
+  width: 100%;
+  background-color: #066;
+}
+
+.navbar a {
+  color: #e2e2e2;
+  text-decoration: none;
+}
+
+.navh2 {
+  color: #e2e2e2;
+  margin-left: 40px;
+  font-size: 30px;
+}
+.navh2 span {
+  color: burlywood;
+}
+.navbar ul {
+  display: flex;
+  margin-right: 160px;
+}
+.navbar ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #e2e2e2;
+  font-weight: 600;
+  margin: 0 50px 0 70px;
+  font-size: 17px;
+  transition: all ease-in-out 0.3s;
+}
+.navbar ul li a:hover {
+  transform: scale(90%);
+  color: burlywood;
+}
+
+.gary h3 {
+  text-decoration: none;
+  border: none;
+  color: #000000;
+}
+
+.nowplaying3 a {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 198px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+/* END */
+
+/* IMAGINARY BAWAH */
+
+.imanigary {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.age3 {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.age3 h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.age3 img {
+  width: 70px;
+  height: 70px;
+  float: right;
+  margin-right: 50px;
+}
+
+.imaginary .gary {
+  margin: 10px;
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.imaginary p {
+  font-size: 20px;
+  border: none;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.imaginary {
+  display: flex;
+}
+
+.trailer3 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.trailer3 a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #066;
+  font-family: "Monsterrat", sans-serif;
+}
+
+.sinopsis3 {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 100;
+}
+
+.sinopsis3 h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.sinopsis3 p {
+  margin-top: 10px;
+}
+
+.gary a {
+  background-color: #066;
+  display: flex;
+  font-family: "Monsterrat", sans-serif;
+  font-size: 30px;
+  color: #ffff;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.deksripsiimaginary {
+  margin-top: 100px;
+}
+/* IMAGINARY END */
+
+/* DIdadLAN */
+
+as a .navbar {
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vh;
+  width: 100%;
+  background-color: #066;
+}
+
+.navbar a {
+  color: #e2e2e2;
+  text-decoration: none;
+}
+
+.navh2 {
+  color: #e2e2e2;
+  margin-left: 40px;
+  font-size: 30px;
+}
+.navh2 span {
+  color: burlywood;
+}
+.navbar ul {
+  display: flex;
+  margin-right: 160px;
+}
+.navbar ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #e2e2e2;
+  font-weight: 600;
+  margin: 0 50px 0 70px;
+  font-size: 17px;
+  transition: all ease-in-out 0.3s;
+}
+.navbar ul li a:hover {
+  transform: scale(90%);
+  color: burlywood;
+}
+
+.dilangbr h3 {
+  text-decoration: none;
+  border: none;
+  color: #000000;
+}
+
+.nowplaying4 a {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 198px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+/* DILAN NAVBAR END */
+
+/* DILAN BAGIAN BAWAH */
+
+.dilan {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.age4 {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.age4 h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.age4 img {
+  width: 70px;
+  height: 70px;
+  float: right;
+  margin-right: 50px;
+}
+
+.dilan .dilangbr {
+  margin: 10px;
+  width: 300px;
+  margin-left: 100px;
+}
+
+.dilan p {
+  font-size: 20px;
+  border: none;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.dilan {
+  display: flex;
+}
+
+.trailer4 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.trailer4 a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #066;
+  font-family: "Monsterrat", sans-serif;
+}
+
+.sinopsis4 {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 100;
+}
+
+.sinopsis4 h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.sinopsis4 p {
+  margin-top: 10px;
+}
+
+.dilangbr a {
+  background-color: #066;
+  display: flex;
+  font-family: "Monsterrat", sans-serif;
+  font-size: 30px;
+  color: #ffff;
+  text-decoration: none;
+  justify-content: center;
+}
+
+/* DILAN END */
+
+/* footer INDEX */
+.footercontainer {
+  background-color: #066;
+  margin-top: 100px;
+}
+
+.footercontainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffff;
+  border-radius: 50%;
+}
+
+.logo a i {
+  font-size: 2em;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.logo a :hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.logo a :hover i {
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.footernav {
+  margin: 30px 0;
+}
+
+.footernav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: disc;
+}
+
+.footernav ul li a {
+  color: #fff;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footernav ul li a:hover {
+  opacity: 1;
+}
+
+.copyright {
+  background-color: #066;
+  padding: 20px;
+  text-align: center;
+}
+
+.copyright p {
+  color: #fff;
+}
+
+.designeer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+  .footernav {
+    flex-direction: column;
+  }
+  .footernav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}
+
+/* footer INDEX END */
+
+/* footer kingdom */
+
+.footercontainer2 {
+  background-color: #066;
+  margin-top: 100px;
+}
+
+.footercontainer2 {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.logo2 {
+  display: flex;
+  justify-content: center;
+}
+
+.logo2 a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffff;
+  border-radius: 50%;
+}
+
+.logo2 a i {
+  font-size: 2em;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.logo2 a :hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.logo2 a :hover i {
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.footernav2 {
+  margin: 30px 0;
+}
+
+.footernav2 ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: disc;
+}
+
+.footernav2 ul li a {
+  color: #fff;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footernav2 ul li a:hover {
+  opacity: 1;
+}
+
+.copyright2 {
+  background-color: #066;
+  padding: 20px;
+  text-align: center;
+}
+
+.copyright2 p {
+  color: #fff;
+}
+
+.designeer2 {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+  .footernav2 {
+    flex-direction: column;
+  }
+  .footernav2 ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}
+
+/* FOOTER KINGDOM END */
+
+/* FOOTER DILAN */
+
+.footercontainer3 {
+  background-color: #066;
+  margin-top: 100px;
+}
+
+.footercontainer3 {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.logo3 {
+  display: flex;
+  justify-content: center;
+}
+
+.logo3 a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffff;
+  border-radius: 50%;
+}
+
+.logo3 a i {
+  font-size: 2em;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.logo3 a :hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.logo3 a :hover i {
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.footernav3 {
+  margin: 30px 0;
+}
+
+.footernav3 ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: disc;
+}
+
+.footernav3 ul li a {
+  color: #fff;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footernav3 ul li a:hover {
+  opacity: 1;
+}
+
+.copyright3 {
+  background-color: #066;
+  padding: 10px;
+  text-align: center;
+}
+
+.copyright3 p {
+  color: #fff;
+}
+
+.designeer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+  .footernav3 {
+    flex-direction: column;
+  }
+  .footernav3 ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}
+
+/* footer dilan end */
+
+/* FOOTER civil war start */
+
+.footercontainer3 {
+  background-color: #066;
+  margin-top: 100px;
+}
+
+.footercontainer3 {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.logo4 {
+  display: flex;
+  justify-content: center;
+}
+
+.logo4 a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffff;
+  border-radius: 50%;
+}
+
+.logo4 a i {
+  font-size: 2em;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.logo4 a :hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.logo4 a :hover i {
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.footernav4 {
+  margin: 30px 0;
+}
+
+.footernav4 ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: disc;
+}
+
+.footernav4 ul li a {
+  color: #fff;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footernav4 ul li a:hover {
+  opacity: 1;
+}
+
+.copyright4 {
+  background-color: #066;
+  padding: 10px;
+  text-align: center;
+}
+
+.copyright4 p {
+  color: #fff;
+}
+
+.designeer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+  .footernav4 {
+    flex-direction: column;
+  }
+  .footernav4 ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}
+
+/* footer civil war end */
+
+/* footer imaginary friends start */
+
+.footercontainer3 {
+  background-color: #066;
+  margin-top: 100px;
+}
+
+.footercontainer3 {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.logo4 {
+  display: flex;
+  justify-content: center;
+}
+
+.logo4 a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffff;
+  border-radius: 50%;
+}
+
+.logo4 a i {
+  font-size: 2em;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.logo4 a :hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.logo4 a :hover i {
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.footernav4 {
+  margin: 30px 0;
+}
+
+.footernav4 ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: disc;
+}
+
+.footernav4 ul li a {
+  color: #fff;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footernav4 ul li a:hover {
+  opacity: 1;
+}
+
+.copyright4 {
+  background-color: #066;
+  padding: 10px;
+  text-align: center;
+}
+
+.copyright4 p {
+  color: #fff;
+}
+
+.designeer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+  .footernav4 {
+    flex-direction: column;
+  }
+  .footernav4 ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}
+
+/* footer imaginary friedns end */
+
+/* HAIKYU  START */
+
+/* Haikyu Navbar */
+
+.navbar {
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vh;
+  width: 100%;
+  background-color: #066;
+}
+
+.navbar a {
+  color: #e2e2e2;
+  text-decoration: none;
+}
+
+.navh2 {
+  color: #e2e2e2;
+  margin-left: 40px;
+  font-size: 30px;
+}
+.navh2 span {
+  color: burlywood;
+}
+.navbar ul {
+  display: flex;
+  margin-right: 160px;
+}
+.navbar ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #e2e2e2;
+  font-weight: 600;
+  margin: 0 50px 0 70px;
+  font-size: 17px;
+  transition: all ease-in-out 0.3s;
+}
+.navbar ul li a:hover {
+  transform: scale(90%);
+  color: burlywood;
+}
+
+.haikyu h3 {
+  text-decoration: none;
+  border: none;
+  color: #000000;
+}
+
+.nowplaying5 a {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 198px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+/* HAIKYU NAVBAR END */
+
+/* HAIKYU BAGIAN BAWAH */
+.haikyu {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.age5 {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.age5 h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.age5 img {
+  width: 70px;
+  height: 70px;
+  float: right;
+  margin-right: 50px;
+}
+
+.haikyu .haikyumg {
+  margin: 10px;
+  width: 300px;
+  margin-left: 100px;
+}
+
+.haikyu p {
+  font-size: 20px;
+  border: none;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.haikyu {
+  display: flex;
+}
+
+.trailer5 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.trailer5 a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #066;
+  font-family: "Monsterrat", sans-serif;
+}
+
+.sinopsis5 {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 100;
+}
+
+.sinopsis5 h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.sinopsis5 p {
+  margin-top: 10px;
+}
+
+.haikyumg a {
+  background-color: #066;
+  display: flex;
+  font-family: "Monsterrat", sans-serif;
+  font-size: 30px;
+  color: #ffff;
+  text-decoration: none;
+  justify-content: center;
+}
+/* HAIKYU END */
+
+/* HAIKYU FOOTER */
+
+.footercontainer4 {
+  background-color: #066;
+  margin-top: 100px;
+}
+
+.footercontainer4 {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.logo5 {
+  display: flex;
+  justify-content: center;
+}
+
+.logo5 a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffff;
+  border-radius: 50%;
+}
+
+.logo5 a i {
+  font-size: 2em;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.logo5 a :hover {
+  color: white;
+  background-color: #066;
+  border-radius: 50%;
+
+  transition: 0.5s;
+}
+
+.logo5 a :hover i {
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.footernav5 {
+  margin: 30px 0;
+}
+
+.footernav5 ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: disc;
+}
+
+.footernav5 ul li a {
+  color: #fff;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footernav5 ul li a:hover {
+  opacity: 1;
+}
+
+.copyright5 {
+  background-color: #066;
+  padding: 10px;
+  text-align: center;
+}
+
+.copyright5 p {
+  color: #fff;
+}
+
+.designeer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+  .footernav4 {
+    flex-direction: column;
+  }
+  .footernav4 ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}
+
+/* HAIKYU FOOTER END */
+
+/* PROJECT END */
