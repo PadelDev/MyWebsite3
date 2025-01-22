@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+HTML {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vh;
+  width: 100%;
+  background-color: #066;
+}
+
+.navbar a {
+  color: #e2e2e2;
+  text-decoration: none;
+}
+
+.navh2 {
+  color: #e2e2e2;
+  margin-left: 40px;
+  font-size: 30px;
+}
+.navh2 span {
+  color: burlywood;
+}
+.navbar ul {
+  display: flex;
+  margin-right: 160px;
+}
+.navbar ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #e2e2e2;
+  font-weight: 600;
+  margin: 0 50px 0 70px;
+  font-size: 17px;
+  transition: all ease-in-out 0.3s;
+}
+.navbar ul li a:hover {
+  transform: scale(90%);
+  color: burlywood;
+}
+
+/* NAVBAR END */
+
+/* INFO */
+.info-text p {
+  display: flex;
+  font-family: "monsterrat" sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  height: 100px;
+  text-align: center;
+}
+
+.imgmantap {
+  margin-top: 100px;
+  display: flex;
+  margin: 100px auto;
+}
+
+/* INFO END */
+
+/* FOOTER */
+.footercontainer {
+  background-color: #066;
+  margin-top: 100px;
+}
+
+.footercontainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffff;
+  border-radius: 50%;
+}
+
+.logo a i {
+  font-size: 2em;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.logo a :hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.logo a :hover i {
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.footernav {
+  margin: 30px 0;
+}
+
+.footernav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: disc;
+}
+
+.footernav ul li a {
+  color: #fff;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footernav ul li a:hover {
+  opacity: 1;
+}
+
+.copyright {
+  background-color: #066;
+  padding: 20px;
+  text-align: center;
+}
+
+.copyright p {
+  color: #fff;
+}
+
+.designeer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
